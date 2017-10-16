@@ -1,0 +1,23 @@
+{
+  "name": "otrs-rest",
+  "version": "2.0.0",
+  "description": "RESTful API for OTRS :sweat_smile::raised_hands:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oeduardoal/otrs-rest.git"
+  },
+  "keywords": [
+    "API",
+    "NODEJS"
+  ],
+  "author": "Eduardo Almeida <oeduardoal@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oeduardoal/otrs-rest/issues"
+  },
+  "homepage": "https://github.com/oeduardoal/otrs-rest#readme"
+}
