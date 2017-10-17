@@ -1,7 +1,9 @@
 'use strict'
 
+const OTRSApi   = require('./lib/api')
+
 /**
- * OTRS RESTful API
+ * OTRS RESTful
  */
 class OTRS{
     /**
@@ -15,11 +17,11 @@ class OTRS{
         this._user          = opts.user;
         this._password      = opts.password;
         this._webservice    = opts.webservice;
-        
+        this._api           = new OTRSApi.OTRSApi(opts)
     }
 
-    show() {
-        console.log(this.opts)
+    get api(){
+        return this._api;
     }
 }
 
