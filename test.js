@@ -9,4 +9,4 @@ let a = new OTRS({
     webservice: "webservice"
 })
 
-a.show();
+let aasd = a.;

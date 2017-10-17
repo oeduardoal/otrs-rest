@@ -18,10 +18,18 @@ class OTRS{
         this._password      = opts.password;
         this._webservice    = opts.webservice;
         
+        this._api           = new OTRSApi({
+            opts: this._opts
+        })
+
     }
 
     show() {
         console.log(this._opts)
+    }
+
+    get api(){
+        return this._api;
     }
 }
 
