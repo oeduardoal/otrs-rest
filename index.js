@@ -18,7 +18,7 @@ class OTRS{
         this._password      = opts.password;
         this._webservice    = opts.webservice;
         
-        this._api           = new OTRSApi({
+        this._api           = new OTRSApi.OTRSApi({
             opts: this._opts
         })
     }

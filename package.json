@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/oeduardoal/otrs-rest/issues"
   },
-  "homepage": "https://github.com/oeduardoal/otrs-rest#readme"
+  "homepage": "https://github.com/oeduardoal/otrs-rest#readme",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
 }
