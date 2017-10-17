@@ -10,8 +10,8 @@ let app = new OTRS({
 })
 app.api.getTicket(708)
 .then(Ticket => {
-    console.log(Ticket)
+    console.log("Resolve",Ticket)
 })
 .catch(Err => {
-    console.log(Err)
+    console.log("Reject",Err)
 })
