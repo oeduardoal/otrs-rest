@@ -8,6 +8,7 @@ let app = new OTRS({
     password: "1001",
     webservice: "Rest"
 })
+
 app.api.getTicket(708)
 .then(Ticket => {
     console.log("Resolve",Ticket)
