@@ -9,10 +9,17 @@ let app = new OTRS({
     webservice: "Rest"
 })
 
-app.api.getTicket(708)
-.then(Ticket => {
-    console.log("Resolve",Ticket)
+// app.api.getTicket(708)
+// .then(Ticket => {
+//     console.log("Resolve",Ticket)
+// })
+// .catch(Err => {
+//     console.log("Reject",Err)
+// })
+app.api.newTicket()
+.then(res => {
+    console.log(res);
 })
-.catch(Err => {
-    console.log("Reject",Err)
+.catch(err => {
+    console.log(err);
 })
