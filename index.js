@@ -21,11 +21,6 @@ class OTRS{
         this._api           = new OTRSApi({
             opts: this._opts
         })
-
-    }
-
-    show() {
-        console.log(this._opts)
     }
 
     get api(){
