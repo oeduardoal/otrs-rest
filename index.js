@@ -19,7 +19,7 @@ class OTRS{
     }
 
     show() {
-        console.log(this.opts)
+        console.log(this._opts)
     }
 }
 
